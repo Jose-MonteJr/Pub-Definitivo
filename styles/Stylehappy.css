@@ -37,9 +37,9 @@ body {
     background-color: var(--cor-terciaria);
     height: 100px;
     font-family: var(--fonte-secundaria);
-    width: 100%;       
+    width: 100%;
     box-sizing: border-box;
-    border-bottom: 5px solid #00322D; 
+    border-bottom: 5px solid #00322D;
 }
 
 .cabecalho__logotipo {
@@ -53,6 +53,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 1.7rem;
+    list-style-type: none;
 }
 
 .cabecalho__nav__menu__links {
@@ -80,37 +81,40 @@ body {
 
 .cabecalho__contato:hover {
     background-color: #00211D;
+    color: var(--cor-secundaria);
 }
 
 
 
 
-h1{
-  text-align: center;
-  color: var(--cor-terciaria);
-  font-size: 50px;
-  display: inline-block;         
-  border-bottom: 5px solid var(--cor-terciaria); 
- padding: 0 20px 10px 20px; 
-  
- 
+h1 {
+    text-align: center;
+    color: var(--cor-terciaria);
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 5px solid var(--cor-terciaria);
+    padding: 0 20px 10px 20px;
+
+
 }
 
 
-.principais{
+.principais {
     color: #F5F5F7;
     font-size: 25px;
     font-weight: bold;
-    
+
 }
+
 table {
     margin: 0 auto;
     width: 1000px;
     border-collapse: collapse;
-    
+
 }
 
-td, th {
+td,
+th {
     /* border-right: 2px solid #537D5D; */
     border-bottom: 2px solid #537D5D;
     padding: 20px;
@@ -118,16 +122,15 @@ td, th {
 
 .container {
     color: var(--cor-terciaria);
-   display: flex;
+    display: flex;
     justify-content: center;
 }
 
 .happy_hour_footer {
-  padding: 5px;
-  text-align: center;
-  font-weight: bold;
-  color: #EDF4C2; 
-  font-size: 1.1rem;
-  border-top: 2px solid var(--cor-terciaria);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #EDF4C2;
+    font-size: 1.1rem;
+    border-top: 2px solid var(--cor-terciaria);
 }
-

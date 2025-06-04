@@ -42,6 +42,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 1.7rem;
+    list-style-type: none;
 }
 
 .cabecalho__nav__menu__links {
@@ -69,6 +70,7 @@
 
 .cabecalho__contato:hover {
     background-color: #00211D;
+    color: var(--cor-secundaria);
 }
 
 body {
@@ -85,6 +87,7 @@ body {
     align-items: center;
     width: 100%;
     height: 90vh;
+    box-sizing: border-box;
 }
 
 .conteudo__form {
@@ -94,15 +97,19 @@ body {
 
 .conteudo__box__form {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     font-size: var(--fonte-tamanho-texto);
     color: var(--cor-terciaria);
+    box-sizing: border-box;
+    margin-top: 2%;
 }
 
 .conteudo__box__titulo {
     font-size: var(--fonte-tamanho-titulo);
     padding: 2%;
     color: #F5F5F7;
+    box-sizing: border-box;
 }
 
 .conteudo__button {
@@ -110,6 +117,7 @@ body {
     gap: 16px;
     justify-content: center;
     margin-top: 10%;
+    box-sizing: border-box;
 }
 
 label {
@@ -133,7 +141,8 @@ button:hover {
     cursor: pointer;
 }
 
-input, select {
+input,
+select {
     padding: 5px 10px;
     border-radius: 8px;
 }

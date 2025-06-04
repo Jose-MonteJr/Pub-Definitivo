@@ -37,9 +37,9 @@ body {
     background-color: var(--cor-terciaria);
     height: 100px;
     font-family: var(--fonte-secundaria);
-    width: 100%;       
+    width: 100%;
     box-sizing: border-box;
-    border-bottom: 5px solid #00322D; 
+    border-bottom: 5px solid #00322D;
 }
 
 .cabecalho__logotipo {
@@ -53,6 +53,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 1.7rem;
+    list-style-type: none;
 }
 
 .cabecalho__nav__menu__links {
@@ -80,12 +81,13 @@ body {
 
 .cabecalho__contato:hover {
     background-color: #00211D;
+    color: var(--cor-secundaria);
 }
 
-.local{
-  text-align: center;
-  color: var(--cor-terciaria);
-  font-size: 30px;
-  display: inline-block;         
- 
+.local {
+    text-align: center;
+    color: var(--cor-terciaria);
+    font-size: 30px;
+    display: inline-block;
+
 }

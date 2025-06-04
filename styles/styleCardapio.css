@@ -42,7 +42,10 @@
     justify-content: space-around;
     align-items: center;
     gap: 1.7rem;
+    list-style-type: none;
 }
+
+
 
 .cabecalho__nav__menu__links {
     font-size: var(--fonte-tamanho-menu);
@@ -69,6 +72,7 @@
 
 .cabecalho__contato:hover {
     background-color: #00211D;
+    color: var(--cor-secundaria);
 }
 
 body {
@@ -111,7 +115,7 @@ body {
     margin: 0% 0% 3% 0%;
 }
 
-li {
+.conteudo__categorias__texto__lista__li {
     font-size: var(--fonte-tamanho-texto);
     margin: 0% 0% 3% 2%;
     list-style: none;
@@ -134,4 +138,9 @@ h3 {
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid var(--cor-destaque);
+    transition: 0.5s; 
+}
+
+.conteudo__categorias__img__foto:hover {
+    transform: scale(1.1); 
 }

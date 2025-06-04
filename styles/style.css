@@ -43,6 +43,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 1.7rem;
+    list-style-type: none;
 }
 
 .cabecalho__nav__menu__links {
@@ -70,6 +71,7 @@
 
 .cabecalho__contato:hover {
     background-color: #00211D;
+    color: var(--cor-secundaria);
 }
 
 body {
@@ -80,14 +82,14 @@ body {
     overflow: hidden;
 }
 
-.imgQuintal{
-    height: 100vh; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;   
+.imgQuintal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgQuintal img {
-  width: 700px; 
-  height: auto;
+    width: 700px;
+    height: auto;
 }
